@@ -1,21 +1,23 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "time-dekstop",
+  "productName": "Siair-DHX",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.siair-dhx.dev",
   "build": {
     "frontendDist": "../build/client",
-    "devUrl": "http://localhost:5437",
+    "devUrl": "http://localhost:5173",
     "beforeDevCommand": "pnpm run dev",
     "beforeBuildCommand": "pnpm run build"
   },
   "app": {
     "windows": [
       {
-        "title": "time-dekstop",
-        "width": 800,
-        "height": 600,
-        "resizable": true,
+        "title": "Siair-DHX",
+        "width": 720,
+        "height": 1000,
+        "minWidth": 720,
+        "alwaysOnTop": true,
+        "resizable": false,
         "fullscreen": false
       }
     ],
