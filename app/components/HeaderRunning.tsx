@@ -14,7 +14,6 @@ export function RunningText() {
         setKey(prevKey => prevKey + 1); // Change the key to force re-mount
         setDurationRun(containerWidth / 20);
         console.log(containerWidth);
-        
       };
   
       // Set initial value

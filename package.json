@@ -13,14 +13,19 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.17.10",
     "@remix-run/node": "^2.15.0",
     "@remix-run/react": "^2.15.0",
     "@remix-run/serve": "^2.15.0",
+    "@tauri-apps/api": "^2.1.1",
     "framer-motion": "^11.11.17",
     "isbot": "^4.1.0",
     "motion-number": "^0.1.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-pannellum": "^0.2.16",
+    "react-rating-emoji": "^2.0.4",
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.0",

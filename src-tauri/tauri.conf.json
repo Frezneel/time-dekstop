@@ -14,10 +14,9 @@
       {
         "title": "Siair-DHX",
         "width": 720,
-        "height": 1000,
-        "minWidth": 720,
-        "alwaysOnTop": true,
-        "resizable": false,
+        "height": 1280,
+        "alwaysOnTop": false,
+        "resizable": true,
         "fullscreen": false
       }
     ],

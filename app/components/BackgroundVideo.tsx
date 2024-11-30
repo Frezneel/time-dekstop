@@ -7,8 +7,9 @@ export function BackgroundVideo() {
 
     return (
         <video autoPlay loop muted playsInline style={{
-            width: '100%',
-            height: '100%',
+            width: 'auto',
+            height: 'auto',
+            aspectRatio: '16/9',
             objectFit: 'cover',
             zIndex: '-1'
         }}>
